@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1012993086939",
+    "firebase_url": "https://super-shop-79221.firebaseio.com",
+    "project_id": "super-shop-79221",
+    "storage_bucket": "super-shop-79221.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1012993086939:android:d22a9ef18566cd125cc3fe",
+        "android_client_info": {
+          "package_name": "com.example.supershop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1012993086939-6iucg01np90eg3v9o6g7q1c5i0j3srg9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.supershop",
+            "certificate_hash": "c12055963596048bb3b8b959d5577e79bd3b8d14"
+          }
+        },
+        {
+          "client_id": "1012993086939-k32btjqfu5077kiu0dmqavdjd7mhn70r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4RkPw5MEdB75cW7Pf1081FFRKPKFAdqc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1012993086939-k32btjqfu5077kiu0dmqavdjd7mhn70r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
