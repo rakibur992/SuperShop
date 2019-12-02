@@ -7,7 +7,9 @@
     tools:context=".Home">
     <LinearLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:id="@+id/search_layout"
+        >
         <EditText
             android:layout_width="340dp"
             android:layout_height="50dp"
@@ -22,5 +24,97 @@
 
             />
     </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Food"
+        android:layout_below="@+id/search_layout"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColor="@color/colorAccent"
+        android:textStyle="italic"
+        android:id="@+id/textSel"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textSel"
+        >
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/fruitsVeg"
+            android:src="@drawable/fruits_vegetables"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="30dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fruits &amp; Vegetable"
+            android:layout_below="@+id/fruitsVeg"
+            android:layout_marginLeft="30dp"
+            />
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/meatFish"
+            android:src="@drawable/meat_fish"
+            android:layout_toEndOf="@+id/fruitsVeg"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="30dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fish &amp; Meat"
+            android:layout_below="@+id/meatFish"
+            android:layout_toEndOf="@+id/fruitsVeg"
+            android:layout_marginLeft="30dp"
+            />
+
+
+
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/cooking"
+            android:layout_below="@+id/fruitsVeg"
+            android:src="@drawable/cooking"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="30dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cooking"
+            android:layout_below="@+id/cooking"
+            android:layout_marginLeft="30dp"
+            />
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/dairy"
+            android:src="@drawable/dairy"
+            android:layout_toEndOf="@+id/cooking"
+            android:layout_below="@+id/meatFish"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="30dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dairy"
+            android:layout_below="@+id/dairy"
+            android:layout_toEndOf="@+id/cooking"
+            android:layout_marginLeft="30dp"
+            />
+
+    </RelativeLayout>
 
 </RelativeLayout>
