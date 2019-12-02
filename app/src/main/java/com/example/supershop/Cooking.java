@@ -31,8 +31,7 @@ public class Cooking extends AppCompatActivity {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
 
-                String []s;
-                s=new String[2];
+
                 for (DataSnapshot d: dataSnapshot.getChildren()){
                     System.out.println(d.getValue());
                 }
